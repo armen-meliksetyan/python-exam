@@ -1,0 +1,286 @@
+{
+  "student_name": "write your name",
+  "student_surname": "write your surname",
+  "exam_content": {
+    "1": {
+      "question": "What are the two main types of functions in Python?",
+      "d": "Built-in function & User defined function",
+      "c": "Custom function",
+      "a": "System function",
+      "b": "User function"
+    },
+    "2": {
+      "question": "Which of the following is the correct extension of the Python file?",
+      "b": ".py",
+      "a": ".pl",
+      "c": ".python",
+      "d": ".p"
+    },
+    "3": {
+      "question": "Which of the following is true for variable names in Python?",
+      "c": "unlimited length",
+      "b": "all private members must have leading and trailing underscores",
+      "a": "underscore and ampersand are the only two special characters allowed",
+      "d": "none of the mentioned"
+    },
+    "4": {
+      "question": "What is the maximum possible length of an identifier?",
+      "a": "none of the mentioned",
+      "c": "63 characters",
+      "b": "79 characters",
+      "d": "31 characters"
+    },
+    "5": {
+      "question": "Mathematical operations can be performed on a string.",
+      "a": "False",
+      "b": "True",
+      "c": "non option",
+      "d": "non option"
+    },
+    "6": {
+      "question": "Operators with the same precedence are evaluated in which manner?",
+      "d": "Left to Right",
+      "b": "Right to Left",
+      "c": "Can\u2019t say",
+      "a": "None of the mentioned"
+    },
+    "7": {
+      "question": "Which of these in not a core data type?",
+      "c": "Class",
+      "a": "Dictionary",
+      "d": "Tuples",
+      "b": "Lists"
+    },
+    "8": {
+      "question": "In order to store values in terms of key and value we use what core data type.",
+      "d": "dictionary",
+      "b": "tuple",
+      "c": "class",
+      "a": "list"
+    },
+    "9": {
+      "question": "What is the output of print 0.1 + 0.2 == 0.3?",
+      "b": "False",
+      "d": "True",
+      "a": "Machine dependent",
+      "c": "Error"
+    },
+    "10": {
+      "question": "What does 3 ^ 4 evaluate to?",
+      "d": "7",
+      "b": "12",
+      "c": "0.75",
+      "a": "81"
+    },
+    "11": {
+      "question": "What will be the value of the following Python expression?\n4 + 3 % 5",
+      "d": "7",
+      "a": "4",
+      "b": "2",
+      "c": "0"
+    },
+    "12": {
+      "question": "What is the value of the following expression?\n2+4.00, 2**4.0",
+      "c": "(6.0, 16.0)",
+      "d": "(6.00, 16.00)",
+      "b": "(6, 16)",
+      "a": "(6.00, 16.0)"
+    },
+    "13": {
+      "question": "Which of the following represents the bitwise XOR operator?",
+      "d": "^",
+      "b": "&",
+      "a": "|",
+      "c": "!"
+    },
+    "14": {
+      "question": "The one\u2019s complement of 110010101 is:",
+      "c": "001101010",
+      "b": "110010101",
+      "d": "001101011",
+      "a": "110010100"
+    },
+    "15": {
+      "question": "What will be the output of the following Python code snippet?\nbool(\u2018False\u2019)\nBool()",
+      "c": "True\nFalse",
+      "d": "False\nTrue",
+      "b": "False\nFalse",
+      "a": "True\nTrue"
+    },
+    "16": {
+      "question": "What will be the output of the following Python code snippet?\nNot(3>4)\nNot(1&1)",
+      "d": "True\nFalse\n",
+      "a": "True\nTrue",
+      "c": "\nFalse\nTrue",
+      "b": "\nFalse\nTrue"
+    },
+    "17": {
+      "question": "What will be the output of the following Python code?\n%x %d' %(255, 255)",
+      "d": "\u2018ff, 255\u2019",
+      "a": "\u2018255, 255\u2019",
+      "b": "\u201815f, 15f\u2019",
+      "c": "Error"
+    },
+    "18": {
+      "question": "What will be the output of the following Python code snippet?\n%(qty)d more %(food)s' %{'qty':1, 'food': 'spam'}",
+      "a": "\u20181 more spam\u2019",
+      "c": "No output",
+      "d": "\u20181 more foods\u2019",
+      "b": "Error"
+    },
+    "19": {
+      "question": "What will be the output of the following Python code?\n%s' %((1.23,),)",
+      "a": "\u2018(1.23,)\u2019",
+      "b": "1.23,",
+      "c": "(,1.23)",
+      "d": "\u20181.23\u2019"
+    },
+    "20": {
+      "question": "What will be the output of the following Python code?\nhex(255), int('FF', 16), 0xFF",
+      "a": "(\u20180xff\u2019, 255, 255)",
+      "c": "(\u20180xff\u2019, 155, 16, 255)",
+      "b": "Error",
+      "d": "[0xFF, 255, 16, 255]"
+    },
+    "21": {
+      "question": "The two snippets of the following Python codes are equivalent.\nCODE 1\n@f\ndef f1():\nprint(\u201cHello\u201d)\nCODE 2\ndef f1():\nprint(\u201cHello\u201d)\nf1 = f(f1)",
+      "c": "True",
+      "d": "False",
+      "a": "non option",
+      "b": "non option"
+    },
+    "22": {
+      "question": "What will be the output of the following Python code?\nfor i in range(float('inf')):\nprint (I)",
+      "a": "none of the mentioned",
+      "c": "0 1 2 3 \u2026",
+      "b": "0.0 1.0 2.0 3.0 \u2026",
+      "d": "0.0 0.1 0.2 0.3 \u2026"
+    },
+    "23": {
+      "question": "What will be the output of the following Python code?\nI = 5\nwhile True:\nif i%0O11 == 0:\nbreak\nprint(i)\nI += 1",
+      "a": "5 6 7 8",
+      "d": "5 6 7 8 9 10",
+      "c": "5 6",
+      "b": "error"
+    },
+    "24": {
+      "question": "What will be the output of the following Python code?\nprint('cba'.maketrans('abc', '123'))",
+      "a": "{97: 49, 98: 50, 99: 51}",
+      "c": "{65: 49, 66: 50, 67: 51}",
+      "d": "321",
+      "b": "123"
+    },
+    "25": {
+      "question": "What will be the output of the following Python code snippet?\nprint('Hello World'.istitle())",
+      "b": "True",
+      "a": "False",
+      "d": "None",
+      "c": "Error"
+    },
+    "26": {
+      "question": "What will be the output of the following Python code? def f(values): values[0] = 44 v = [1, 2, 3] f(v) print(v)",
+      "c": "[44, 2, 3]",
+      "a": "[1, 2, 3, 44]",
+      "d": "[1, 44]",
+      "b": "[1, 2, 3]"
+    },
+    "27": {
+      "question": "What will be the output of the following Python code?\n>>>list1 = [11, 2, 23]\n>>>list2 = [11, 2, 2]\n>>>list1 < list2",
+      "c": "False",
+      "b": "True",
+      "a": "Error",
+      "d": "None"
+    },
+    "28": {
+      "question": "What will be the output of the following Python code? A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] B = [[3, 3, 3], [4, 4, 4], [5, 5, 5]] [[col1 * col2 for (col1, col2) in zip(row1, row2)] for (row1, row2) in zip(A, B)]",
+      "b": "[[3, 6, 9], [16, 20, 24], [35, 40, 45]]",
+      "c": "[0, 30, 60, 120, 160, 200, 300, 350, 400]",
+      "a": "No output",
+      "d": "Error"
+    },
+    "29": {
+      "question": "Which of the following is the same as list(map(lambda x: x**-1, [1, 2, 3]))?",
+      "c": "[1/x for x in (1, 2, 3)]",
+      "b": "[1/x for x in [(1, 2, 3)]]",
+      "d": "[x**-1 for x in [(1, 2, 3)]]",
+      "a": "error"
+    },
+    "30": {
+      "question": "Which of the following is a Python tuple?",
+      "c": "(1, 2, 3)",
+      "a": "[1, 2, 3]",
+      "b": "{1, 2, 3}",
+      "d": "{}"
+    },
+    "31": {
+      "question": "What will be the output of the following Python code? a = ('check',) n = 2 for i in range(int(n)): a = (a,) print(a)",
+      "b": "(('check',),) ((('check',),),)",
+      "a": "Error, tuples are immutable",
+      "d": "((\u2018check\u2019,)\u2019check\u2019,)",
+      "c": "(('check',)\u2019check\u2019,) ((('check',)\u2019check\u2019,)\u2019check\u2019,)"
+    },
+    "32": {
+      "question": "Write a list comprehension for number and its cube for: l=[1, 2, 3, 4, 5, 6, 7, 8, 9]",
+      "b": "[x**3 for x in l]",
+      "a": "[x^3 for x in l]",
+      "d": "[x**3 in l]",
+      "c": "[x^3 in l]"
+    },
+    "33": {
+      "question": "What will be the output of the following Python code? a={1:\"A\",2:\"B\",3:\"C\"} b={4:\"D\",5:\"E\"} a.update(b) print(a)",
+      "c": "{1: \u2018A\u2019, 2: \u2018B\u2019, 3: \u2018C\u2019, 4: \u2018D\u2019, 5: \u2018E\u2019}",
+      "a": "Method update() doesn\u2019t exist for dictionaries",
+      "d": "{1: \u2018A\u2019, 2: \u2018B\u2019, 3: \u2018C\u2019}",
+      "b": "{4: \u2018D\u2019, 5: \u2018E\u2019}"
+    },
+    "34": {
+      "question": "What will be the output of the following Python code? >>> a=dict() >>> a[1]",
+      "d": "An exception is thrown since the dictionary is empty",
+      "c": "\u2018 \u2018",
+      "a": "1",
+      "b": "0"
+    },
+    "35": {
+      "question": "What will be the output of the following Python function? list(enumerate([2, 3]))",
+      "d": "[(0, 2), (1, 3)]",
+      "b": "[(1, 2), (2, 3)]",
+      "a": "Error",
+      "c": "[(2, 3)]"
+    },
+    "36": {
+      "question": "What will be the output of the following Python functions? x=3 eval('x^2')",
+      "a": "1",
+      "c": "Error",
+      "d": "9",
+      "b": "6"
+    },
+    "37": {
+      "question": "What will be the output of the following Python code? def find(a, **b): print(type(b)) find('letters',A='1',B='2')",
+      "a": "Dictionary",
+      "b": "Tuple",
+      "c": "String",
+      "d": "An exception is thrown"
+    },
+    "38": {
+      "question": "What will be the output of the following Python code? def sayHello(): print('Hello World!') sayHello() sayHello()",
+      "c": "Hello World! Hello World!",
+      "d": "Hello World!' Hello World!'",
+      "b": "Hello Hello",
+      "a": "None of the mentioned"
+    },
+    "39": {
+      "question": "How are default arguments specified in the function heading?",
+      "d": "identifier followed by an equal to sign and the default value",
+      "c": "identifier followed by the default value within backticks (\u201c)",
+      "a": "identifier followed by the default value within square brackets ([])",
+      "b": "identifier"
+    },
+    "40": {
+      "question": "How are variable length arguments specified in the function heading?",
+      "c": "one star followed by a valid identifier",
+      "d": "one underscore followed by a valid identifier",
+      "b": "two stars followed by a valid identifier",
+      "a": "two underscores followed by a valid identifier"
+    }
+  }
+}
